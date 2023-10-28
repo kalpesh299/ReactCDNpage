@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18.1.0/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18.1.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=REM:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div id="root"></div>
+
+<script type="text/babel">
+
+const maindiv=document.getElementById("root");
+const root=ReactDOM.createRoot(maindiv);
+
+function Content(){
+    return <div>
+    <h1 class="head">Topics Coverd</h1>
+    <p>The Following is a list of all topics we cover in the MDN learning area</p>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">Getting STarted with thye Web</a>
+  <p>Provides Practicle introduction to web development for complete beginners</p>  
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style">HTML- Structuring Web</a>
+  <p>The style global attribute contains CSS styling declarations to be applied to the element. Note that it is recommended for styles to be defined in a separate file or files.</p>  
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style">CSS-STyling the web</a>
+  <p>The HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the element.</p>  
+  </div>
+}
+
+root.render(
+    <div>
+        <Content/>
+        </div>
+)
+
+</script>
+
+</body>
+</html>

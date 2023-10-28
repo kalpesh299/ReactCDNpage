@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif;
+    
+}
+.head{
+    color:rgb(2, 2, 2);
+}
+
+h1{
+    margin:1em 0em 1em 0.5em;
+    font-size: 2.5em;
+    
+}
+
+p{
+    margin:1em 0em 1em 1.2em;
+    font-size: 1.2em;
+}
+
+a{
+    margin:1em 0em 1em 1.5em;
+    font-size: 1.2em; 
+}
